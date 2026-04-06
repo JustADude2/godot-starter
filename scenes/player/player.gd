@@ -3,6 +3,7 @@ extends CharacterBody2D
 @export var move_speed := 220.0
 @export var jump_velocity := -350.0
 @export var gravity := 900.0
+@export var aura := 1000000
 
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
