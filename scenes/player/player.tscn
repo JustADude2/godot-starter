@@ -17,5 +17,6 @@ position = Vector2(0, 0.5)
 shape = SubResource("RectangleShape2D_gmlin")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=564236302]
+unique_name_in_owner = true
 
 [node name="JumpSound" type="AudioStreamPlayer2D" parent="." unique_id=505160413]
